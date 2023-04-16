@@ -291,6 +291,9 @@ class KesslerGame:
         # Return the score and stop condition
         return score, perf_list
 
+    def check_asteroid_bullet_collisions(self):
+        pass
+
 
 class TrainerEnvironment(KesslerGame):
     def __init__(self, settings: Dict[str, Any] = None):
